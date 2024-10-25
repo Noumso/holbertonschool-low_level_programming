@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * void times_table - print 9 times_table
+ * void times_table - print the 9 times_table
  * print the 9 times table
  *return: void 
  **/
 
-void times_tables(void)
+void print_times_tables(void)
 {
 	int row, column, product, tens, ones;
 	
@@ -27,8 +27,8 @@ void times_tables(void)
 			}
 			else
 			{
-				_putchar(tens + '0')
-				_putchar(ones + '0')
+				_putchar(tens + '0');
+				_putchar(ones + '0');
 			}
 		}
 		_putchar('\n');
