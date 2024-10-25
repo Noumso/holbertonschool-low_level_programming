@@ -2,12 +2,12 @@
 /**
  * void times_table - print 9 times_table
  * print the 9 times table
- *return void 
+ *return: void 
  **/
 
 void times_tables(void)
 {
-	int row, column, tens, ones, product
+	int row, column, product, tens, ones;
 	
 	for (row = 0; row <= 9; row++)
 	{
