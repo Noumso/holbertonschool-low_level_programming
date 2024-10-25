@@ -9,9 +9,9 @@ void times_tables(void)
 {
 	int row, column, tens, ones, product
 	
-	for (row = 0; row <= 9, row++)
+	for (row = 0; row <= 9; row++)
 	{
-		for (column = 0; column <= 0, column++)
+		for (column = 0; column <= 0; column++)
 		{
 			product = row * column;
 			tens = product / 10;
