@@ -19,11 +19,11 @@ void times_table(void)
 			_putchar(',');
 			if (sum / 100 == 0)
 			{
-				_putchar(32);
+				_putchar(' ');
 			}
 			if (sum / 10 == 0)
 			{
-				_putchar(32);
+				_putchar(' ');
 			}
 			else
 			{
