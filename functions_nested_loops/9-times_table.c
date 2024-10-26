@@ -1,35 +1,35 @@
 #include "main.h"
 
 /**
- * times_table - print the 9 times table
+ * times_table - print out the 9 times table
  *
- * retunr: void
+ * Return: void
  */
 void times_table(void)
 {
 	int v, h;
 
-	for (h = 0; h < 10; h++);
+	for (h = 0 ; h < 10 ; h++)
 	{
 		_putchar('0');
-		for (v = 1; v < 10; v++)
+		for (v = 1 ; v < 10 ; v++)
 		{
-			int sum = v * h; 
+			int sum = v * h;
 
 			_putchar(',');
-			if (sum / 100 == 0);
+			if (sum / 100 == 0)
 			{
-				_putchar(' ');
+				_putchar(32);
 			}
-			if (sum / 10 == 0);
+			if (sum / 10 == 0)
 			{
-				_putchar(' ');
+				_putchar(32);
 			}
 			else
 			{
 				_putchar('0' + (sum / 10));
 			}
-			if (sum % 10 == 0);
+			if (sum % 10 == 0)
 			{
 				_putchar('0');
 			}
@@ -41,3 +41,4 @@ void times_table(void)
 		_putchar('\n');
 	}
 }
+
