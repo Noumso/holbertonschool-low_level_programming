@@ -1,4 +1,4 @@
-#include "main.h"
+a#include "main.h"
 
 /**
  * puts2 - print alternating chars of string
