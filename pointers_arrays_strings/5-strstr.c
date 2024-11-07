@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _strstr - function locate
+* _strstr - locate a substring
 * @haystack: pointer to char
 * @needle: pointer to char
 * Return: 0

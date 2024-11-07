@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strpbrk - bytes
+ * _strpbrk - searches a string for any of as set of bytes
  * @s: pointer to char
  * @accept: pointer to char
  * Return: NULL
