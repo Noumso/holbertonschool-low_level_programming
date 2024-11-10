@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - print the nb of arg
- * @argc: nm of cmd line arg
+ * @argc: nb of cmd line arg
  * @argv: array that contains prgm cmd lin arg
- * Return: 0 -success
+ * Return: 0 - success
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
