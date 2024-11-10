@@ -2,8 +2,8 @@
 
 /**
  * divisors - number is prime?
- * @n: integer params
- * @m: integer params
+ * @n: integer parameter
+ * @m: integer parameter
  * Return: boolean
  */
 
@@ -25,7 +25,7 @@ int divisors(int n, int m)
 
 /**
  * is_prime_number - prime
- * @n: integer params
+ * @n: integer parameter
  * Return: recursion
  */
 
