@@ -1,11 +1,13 @@
 #include "dog.h"
 #include <stdlib.h>
+
 /**
   * new_dog - creates a new struct of type dog
   * @name: struct parameter name
   * @age: struct parameter age
   * @owner: struct parameter owner
   * Return: returns pointer to buffer of datatype dog
+  * if fails return NULL
   */
 dog_t *new_dog(char *name, float age, char *owner)
 {
