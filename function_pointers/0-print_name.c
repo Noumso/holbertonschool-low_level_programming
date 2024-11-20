@@ -1,5 +1,5 @@
 #include <stdlib.h>
-
+#include "function_pointers.h"
 /**
  * print_name - function that print a name
  * @name: prmt that f ptr need
