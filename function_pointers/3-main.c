@@ -3,7 +3,7 @@
 #include "3-calc.h"
 
 /**
- * main: calculate a operation
+ * main - calculate a operation
  * print sum, difference, product, dividend or remainder
  * @argc: argument counter
  * @argv: argument
@@ -12,9 +12,9 @@
 int main(argc, char *argv[])
 {
 	int n1, n2;
-	int (*f)(int,);
+	int (*f)(int, int);
 
-	if (argc !=4)
+	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
