@@ -1,14 +1,17 @@
 #include "main.h"
 /**
- * create_file - write a file
- * @filename: the file to write.
- * @text_content: the content to write
- * Description: write  a file
- * Return: 1 in success -1 in failure
+ * create_file - creates and writes to a file
+ * @filename: the name of the file to write to
+ * @text_content: the content to write into the file
+ * Description: This function creates a file with the specified filename
+ * and writes the given content into it. If the file already exists,
+ * it is truncated. The function returns 1 on success, and -1 on failure.
+ *
+ * Return: 1 on success, -1 on failure
  */
 int create_file(const char *filename, char *text_content)
 {
-	int fd, _write, i;
+	int fd, _write, i = 0;
 
 	if (filename == NULL)
 		return (-1);
@@ -26,6 +29,8 @@ int create_file(const char *filename, char *text_content)
 		if (_write == -1)
 			return (-1);
 	}
+
 	close(fd);
 	return (1);
 }
+
